@@ -25,7 +25,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", "-1002507632106"))
 
 OWNER_ID = int(getenv("OWNER_ID", "7760451571"))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "Gojo_X_Jinwoo_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "CuddleBuddhuu_Bot")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -35,7 +35,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "",
+    "https://github.com/SpyGamer7t2r/CuddlingBaby",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "https://github.com/Gxinfinity/SpyMusicxInfinity")
 GIT_TOKEN = getenv(
